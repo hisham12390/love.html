@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>رسالة حب رومانسية</title>
+<style>
+body{
+margin:0;
+height:100vh;
+overflow:hidden;
+font-family:Tahoma;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+background-image:url('file_00000000b5287246bb880f770f148fba.png');
+background-size:cover;
+background-position:center;
+}
+
+.box{
+background: rgba(0,0,0,0.5);
+padding: 40px;
+border-radius: 20px;
+font-size:28px;
+line-height:1.8;
+animation:fadein 3s;
+}
+
+@keyframes fadein{
+from{opacity:0; transform:translateY(40px);}
+to{opacity:1; transform:translateY(0);}
+}
+
+.butterfly{
+position:absolute;
+width:50px;
+height:50px;
+background-image:url('https://i.ibb.co/0Jc3K0t/butterfly.png');
+background-size:contain;
+background-repeat:no-repeat;
+animation:fly linear infinite;
+}
+
+@keyframes fly{
+0%{transform:translate(0px, 100vh) rotate(0deg);}
+25%{transform:translate(100px, 70vh) rotate(20deg);}
+50%{transform:translate(200px, 50vh) rotate(-20deg);}
+75%{transform:translate(150px, 30vh) rotate(10deg);}
+100%{transform:translate(300px, -50px) rotate(0deg);}
+}
+
+.name{
+font-size:34px;
+color:#FFD700;
+margin-bottom:20px;
+animation:type 4s steps(40);
+overflow:hidden;
+white-space:nowrap;
+border-right:3px solid white;
+}
+
+@keyframes type{
+from{width:0;}
+to{width:100%;}
+}
+
+</style>
+</head>
+<body>
+
+<audio autoplay loop>
+<source src="https://drive.google.com/uc?export=download&id=1RiQo2CyighudZLDGoHTCc_yO7qQrH24o" type="audio/mpeg">
+</audio>
+
+<div class="box">
+<div class="name">إلى صاحبة العيون الخضراء 💚</div>
+حين نظرتُ إلى عينيكِ الخضراوين،<br>
+شعرتُ وكأن فراشات الربيع كلها<br>
+استيقظت في قلبي.
+</div>
+
+<div class="butterfly" style="left:10%; animation-duration:12s;"></div>
+<div class="butterfly" style="left:30%; animation-duration:15s;"></div>
+<div class="butterfly" style="left:50%; animation-duration:10s;"></div>
+<div class="butterfly" style="left:70%; animation-duration:18s;"></div>
+<div class="butterfly" style="left:90%; animation-duration:14s;"></div>
+
+</body>
+</html>
+
